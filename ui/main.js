@@ -41,7 +41,7 @@ submit.onclick=function(){
     console.log(username);
     console.log(password);
     //make the request
-    request.open('POST','http://faizanbari1017.imad.hasura-app.io/login',true);
+    request.open('POST','http://nehapramod27.imad.hasura-app.io/login',true);
     request.setRequestHeader('Content-Type','application/json');
     request.send(JSON.stringify({username:username,password:password}));
     //Make a request to server and send name
